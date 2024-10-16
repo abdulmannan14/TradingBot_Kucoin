@@ -1,0 +1,4 @@
+API_KEY = '670cd988f682b10001c1dbe9'
+API_SECRET = '199d1059-50fc-418d-9fec-945e6ecb2727'
+API_PASSPHRASE = '123456789'
+BASE_URL = 'https://api-futures.kucoin.com'
