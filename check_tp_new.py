@@ -17,7 +17,7 @@ def create_kucoin_futures_signature(api_secret, api_passphrase, method, endpoint
     return signature, passphrase
 
 
-def check_tp(pair, order_id, tp_price):
+def check_tp(order_id, tp_price, pair):
     """Check if the take profit price is hit for the given futures order on KuCoin."""
     endpoint = f"/api/v1/orders/{order_id}"
     url = f"{BASE_URL}{endpoint}"
